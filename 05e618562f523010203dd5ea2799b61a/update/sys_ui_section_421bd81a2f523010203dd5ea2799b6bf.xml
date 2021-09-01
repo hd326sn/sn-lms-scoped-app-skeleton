@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Resolution Information" section_id="421bd81a2f523010203dd5ea2799b6bf" sys_domain="global" table="x_451182_lms_lms_incidents" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>knowledge</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-01 21:37:54</sys_created_on>
+            <sys_id>021bd81a2f523010203dd5ea2799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_451182_lms_lms_incidents" sys_domain="global" view="169009876d2620100acb70b35343302a">421bd81a2f523010203dd5ea2799b6bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-01 21:37:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_code</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-01 21:37:54</sys_created_on>
+            <sys_id>0a1bd81a2f523010203dd5ea2799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_451182_lms_lms_incidents" sys_domain="global" view="169009876d2620100acb70b35343302a">421bd81a2f523010203dd5ea2799b6bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-01 21:37:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-01 21:37:54</sys_created_on>
+            <sys_id>8a1bd81a2f523010203dd5ea2799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_451182_lms_lms_incidents" sys_domain="global" view="169009876d2620100acb70b35343302a">421bd81a2f523010203dd5ea2799b6bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-01 21:37:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_by</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-01 21:37:54</sys_created_on>
+            <sys_id>0e1bd81a2f523010203dd5ea2799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_451182_lms_lms_incidents" sys_domain="global" view="169009876d2620100acb70b35343302a">421bd81a2f523010203dd5ea2799b6bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-01 21:37:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolved_at</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-01 21:37:54</sys_created_on>
+            <sys_id>8e1bd81a2f523010203dd5ea2799b6c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_451182_lms_lms_incidents" sys_domain="global" view="169009876d2620100acb70b35343302a">421bd81a2f523010203dd5ea2799b6bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-01 21:37:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution Information</caption>
+            <header>false</header>
+            <name>x_451182_lms_lms_incidents</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-09-01 21:37:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>421bd81a2f523010203dd5ea2799b6bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_451182_lms_lms_incidents</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+            <sys_update_name>sys_ui_section_421bd81a2f523010203dd5ea2799b6bf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-09-01 21:37:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">169009876d2620100acb70b35343302a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

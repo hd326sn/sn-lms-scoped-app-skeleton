@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="incident" label="LMS Incidents" max_length="40" name="x_451182_lms_lms_incidents" type="collection"/>
+</database>
