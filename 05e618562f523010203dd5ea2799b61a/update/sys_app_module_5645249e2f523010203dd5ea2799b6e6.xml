@@ -3,6 +3,7 @@
         <active>true</active>
         <application display_value="Learning Management System">b3595cd62f523010203dd5ea2799b613</application>
         <assessment/>
+        <content_page/>
         <device_type/>
         <filter table="x_451182_lms_lms_incidents">state=6^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

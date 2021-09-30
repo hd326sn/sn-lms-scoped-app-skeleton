@@ -18,7 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Incident" name="incident">aee0858b6d2620100acb70b353433075</super_class>
+        <super_class display_value="Incident" name="incident">5c26b2421bd233000b8cca661a4bcb13</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>

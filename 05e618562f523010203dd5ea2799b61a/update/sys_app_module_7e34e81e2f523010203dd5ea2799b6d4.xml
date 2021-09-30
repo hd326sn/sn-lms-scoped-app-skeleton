@@ -3,6 +3,7 @@
         <active>true</active>
         <application display_value="Learning Management System">b3595cd62f523010203dd5ea2799b613</application>
         <assessment/>
+        <content_page/>
         <device_type/>
         <filter table="x_451182_lms_lms_incidents">active=true^assigned_toISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>

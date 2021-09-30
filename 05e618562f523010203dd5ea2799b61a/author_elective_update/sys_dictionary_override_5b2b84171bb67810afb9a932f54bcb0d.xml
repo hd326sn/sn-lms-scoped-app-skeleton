@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes>readonly_clickthrough=true,ref_contributions=aw_recommendation</attributes>
+        <attributes_override>true</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_451182_lms_lms_incidents</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>roles=x_451182_lms.lms_incidents_user</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2021-09-29 19:40:30</sys_created_on>
+        <sys_id>5b2b84171bb67810afb9a932f54bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_dictionary_override_5b2b84171bb67810afb9a932f54bcb0d</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2021-09-29 19:40:30</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_dictionary_override_5b2b84171bb67810afb9a932f54bcb0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes>readonly_clickthrough=true,ref_contributions=aw_recommendation</attributes><attributes_override>true</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>assigned_to</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_451182_lms_lms_incidents</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual>roles=x_451182_lms.lms_incidents_user</reference_qual><reference_qual_override>true</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by><sys_created_on>2021-09-29 19:40:30</sys_created_on><sys_id>5b2b84171bb67810afb9a932f54bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package><sys_policy/><sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope><sys_update_name>sys_dictionary_override_5b2b84171bb67810afb9a932f54bcb0d</sys_update_name><sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by><sys_updated_on>2021-09-29 19:40:30</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>115947617</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>66beb0da1b123090afb9a932f54bcb08</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2021-09-29 19:40:30</sys_created_on>
+        <sys_id>6bbcc0d71bb67810afb9a932f54bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c33129f850000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2021-09-29 19:40:30</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>63bcc0d7f6b67810cf0a08261428050b</update_guid>
+        <update_guid_history>63bcc0d7f6b67810cf0a08261428050b:115947617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2021-09-29 23:30:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>064800b5de0e47d481758f3a7517de90</sys_id>
+        <sys_metadata>5b2b84171bb67810afb9a932f54bcb0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_parent display_value="x_451182_lms_lms_incidents">9baef4da1b123090afb9a932f54bcbbf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_5b2b84171bb67810afb9a932f54bcb0d</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_5b2b84171bb67810afb9a932f54bcb0d">6bbcc0d71bb67810afb9a932f54bcb0b</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2021-09-29 23:30:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

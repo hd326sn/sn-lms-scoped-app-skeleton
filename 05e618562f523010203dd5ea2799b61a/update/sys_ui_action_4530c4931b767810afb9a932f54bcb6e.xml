@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>lms_escalate_to_service_desk</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>LMS Escalate to Service Desk</name>
+        <onclick>escalateToServiceDesk()</onclick>
+        <order>100</order>
+        <script><![CDATA[/* Source https://servicenowguru.com/system-ui/ui-actions-system-ui/client-server-code-ui-action/ */
+
+function escalateToServiceDesk()
+{
+    var answer = confirm('Are you sure you want to escalate this Incident to the Service Desk?');
+   
+    if(answer == false)
+    {
+		//Abort submission
+        return false;
+    }
+    else
+    {
+		// Call the UI Action and skip the 'onclick' function
+        gsftSubmit(null, g_form.getFormElement(), 'lms_escalate_to_service_desk');
+    }
+}
+// Code that runs without 'onclick'
+// Ensure call to server-side function with no browser errors
+if(typeof window == 'undefined')
+    escalateServiceDesk();
+//Server-side function
+function escalateServiceDesk()
+{
+	var inc = new GlideRecord("incident");
+    inc.initialize();
+	inc.caller_id = current.caller_id;
+	inc.category = current.category;
+	inc.subcategory = current.subcategory;
+	inc.business_service = current.business_service;
+	inc.service_offering = current.service_offering;
+	inc.cmdb_ci = current.cmdb_ci;
+	inc.contact_type = current.contact_type;
+	//inc.state = current.state;
+	//inc.hold_reason = current.hold_reason;
+	inc.impact = current.impact;
+	inc.urgency = current.urgency;
+	inc.priority = current.priority;
+	inc.assignment_group = gs.getProperty('group.Service.Desk');
+	inc.short_description = current.short_description;
+	inc.description = current.description;
+	inc.parent_incident = current.sys_id;
+	inc.insert();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2021-09-29 19:04:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4530c4931b767810afb9a932f54bcb6e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>LMS Escalate to Service Desk</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_ui_action_4530c4931b767810afb9a932f54bcb6e</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2021-09-30 00:47:48</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>
