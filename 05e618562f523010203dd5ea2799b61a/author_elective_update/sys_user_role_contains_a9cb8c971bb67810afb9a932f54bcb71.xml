@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_451182_lms.lms_incidents_user" name="x_451182_lms.lms_incidents_user">335958562f523010203dd5ea2799b6d1</contains>
+        <role display_value="x_451182_lms.admin" name="x_451182_lms.admin">73e698162f523010203dd5ea2799b6ca</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2021-09-29 19:36:17</sys_created_on>
+        <sys_id>a9cb8c971bb67810afb9a932f54bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_451182_lms.lms_incidents_user.x_451182_lms.admin</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_user_role_contains_a9cb8c971bb67810afb9a932f54bcb71</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2021-09-29 19:36:17</sys_updated_on>
+    </sys_user_role_contains>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>9113a64adb760c9052dd2f17d4961904</instance_id>
+        <instance_name>dev99800</instance_name>
+        <name>sys_user_role_contains_a9cb8c971bb67810afb9a932f54bcb71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_451182_lms.lms_incidents_user" name="x_451182_lms.lms_incidents_user">335958562f523010203dd5ea2799b6d1</contains>
+        <role display_value="x_451182_lms.admin" name="x_451182_lms.admin">73e698162f523010203dd5ea2799b6ca</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2021-09-29 19:36:17</sys_created_on>
+        <sys_id>a9cb8c971bb67810afb9a932f54bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_451182_lms.lms_incidents_user.x_451182_lms.admin</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_user_role_contains_a9cb8c971bb67810afb9a932f54bcb71</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2021-09-29 19:36:17</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>]]></payload>
+        <payload_hash>-616486856</payload_hash>
+        <record_name>x_451182_lms.lms_incidents_user.x_451182_lms.admin</record_name>
+        <reverted_from/>
+        <source>19d4a1b72fcb0110901afe1df699b675</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 21:49:22</sys_created_on>
+        <sys_id>b3d425b72fcb0110901afe1df699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1807c7325880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 21:49:22</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>73d425b762cb0110f7b536ea2451de67</update_guid>
+        <update_guid_history>73d425b762cb0110f7b536ea2451de67:-616486856</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-30 23:48:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>220739c3362a4ff08910d56d4593bb10</sys_id>
+        <sys_metadata>a9cb8c971bb67810afb9a932f54bcb71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_451182_lms.lms_incidents_user.x_451182_lms.admin</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_a9cb8c971bb67810afb9a932f54bcb71</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_a9cb8c971bb67810afb9a932f54bcb71">b3d425b72fcb0110901afe1df699b667</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-30 23:48:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
