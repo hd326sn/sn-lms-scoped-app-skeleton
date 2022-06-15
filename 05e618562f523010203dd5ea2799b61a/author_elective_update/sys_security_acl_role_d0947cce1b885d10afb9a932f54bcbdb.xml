@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-14 00:52:14</sys_created_on>
+        <sys_id>d0947cce1b885d10afb9a932f54bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_451182_lms.admin</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_security_acl display_value="">338478ce1b885d10afb9a932f54bcbc9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d0947cce1b885d10afb9a932f54bcbdb</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-14 00:52:14</sys_updated_on>
+        <sys_user_role display_value="x_451182_lms.admin" name="x_451182_lms.admin">73e698162f523010203dd5ea2799b6ca</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_security_acl_role_d0947cce1b885d10afb9a932f54bcbdb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by><sys_created_on>2022-06-14 00:52:14</sys_created_on><sys_id>d0947cce1b885d10afb9a932f54bcbdb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_451182_lms.admin</sys_name><sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package><sys_policy/><sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope><sys_security_acl display_value="">338478ce1b885d10afb9a932f54bcbc9</sys_security_acl><sys_update_name>sys_security_acl_role_d0947cce1b885d10afb9a932f54bcbdb</sys_update_name><sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by><sys_updated_on>2022-06-14 00:52:14</sys_updated_on><sys_user_role display_value="x_451182_lms.admin" name="x_451182_lms.admin">73e698162f523010203dd5ea2799b6ca</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-282978228</payload_hash>
+        <record_name>.x_451182_lms.admin</record_name>
+        <reverted_from/>
+        <source>1cfb2c051b8c1910afb9a932f54bcbec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-14 00:52:14</sys_created_on>
+        <sys_id>2fa4fcce1b885d10afb9a932f54bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1815fb260380000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-14 00:52:14</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a3a4fccefe885d10c83cb46c31dacdab</update_guid>
+        <update_guid_history>a3a4fccefe885d10c83cb46c31dacdab:-282978228</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_451182_lms.admin">60d474021bc85d10afb9a932f54bcb2b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-14 00:52:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>6007778fe80b4f7bafbbe9a992307621</sys_id>
+        <sys_metadata>d0947cce1b885d10afb9a932f54bcbdb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_451182_lms.admin</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d0947cce1b885d10afb9a932f54bcbdb</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d0947cce1b885d10afb9a932f54bcbdb">2fa4fcce1b885d10afb9a932f54bcbab</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-14 00:52:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

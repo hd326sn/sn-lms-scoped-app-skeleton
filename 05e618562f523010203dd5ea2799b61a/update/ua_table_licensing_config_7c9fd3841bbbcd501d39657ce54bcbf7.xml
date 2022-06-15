@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-01 21:30:24</sys_created_on>
-        <sys_id>1faef4da1b123090afb9a932f54bcbcd</sys_id>
+        <sys_id>7c9fd3841bbbcd501d39657ce54bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_451182_lms_lms_incidents</sys_name>
         <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
-        <sys_update_name>ua_table_licensing_config_1faef4da1b123090afb9a932f54bcbcd</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_7c9fd3841bbbcd501d39657ce54bcbf7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-09-01 21:30:24</sys_updated_on>
     </ua_table_licensing_config>

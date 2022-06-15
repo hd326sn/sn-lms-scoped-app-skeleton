@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html><![CDATA[<p>Hello ${caller_id},</p>
+<p>[INSERT YOUR MESSAGE HERE]</p>
+<p>Thank you,</p>
+<p>${mail_script:simple_signature}</p>
+<p><img style="border: 5px solid black;" title="" src="output-onlinepngtools-large.pngx" alt="" width="239" height="118" align="bottom" border="5" hspace="" vspace="" data-darkreader-inline-border-left="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-right="" data-darkreader-inline-border-top="" /></p>]]></body_html>
+        <condition/>
+        <content_type>text/html</content_type>
+        <copied/>
+        <email_client_from_address>459cc3b91bcc1d10afb9a932f54bcb73</email_client_from_address>
+        <from/>
+        <from_generation_type>select_from_list</from_generation_type>
+        <name>Learning Management Sys Email Template</name>
+        <order>100</order>
+        <recipients>caller_id</recipients>
+        <reply_to>CDSS Learning Management Dev &lt;CDSSLearningManagementDev@dss.ca.gov&gt;</reply_to>
+        <script_from><![CDATA[(function (fromAddressQuery, targetRecord) {
+		/**
+		 * fromAddressQuery: A GlideRecord on the table "sys_email_client_from_address". Add conditions to filter the
+		 * 		the email addresses displayed in the Email Client. 
+		 * targetRecord: A GlideRecord representing the record in which the Email Client was opened from
+		 */
+
+})(fromAddressQuery, targetRecord);]]></script_from>
+        <subject>${number} - Request for additional information</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-13 17:36:30</sys_created_on>
+        <sys_id>efec4bf11b8c1d10afb9a932f54bcbc3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Learning Management Sys Email Template</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_email_client_template_efec4bf11b8c1d10afb9a932f54bcbc3</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-13 20:08:13</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+    </sys_email_client_template>
+</record_update>

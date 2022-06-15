@@ -15,7 +15,6 @@
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style>primary</form_style>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint/>
         <isolate_script>true</isolate_script>
         <list_action>false</list_action>
@@ -72,7 +71,7 @@ function escalateServiceDesk()
 	intk.short_description = current.short_description;
 	intk.description = current.description;
 	intk.incident = current.sys_id;
-	intk.work_notes = 'This Task was created (cloned) from LMS Incident ' + current.number + ' because further assistance is needed in processing' + current.number;
+	intk.work_notes = 'This Task was created (cloned) from LMS Incident ' + current.number + ' because further assistance is needed in processing';
 	intk.insert();
 }]]></script>
         <show_insert>true</show_insert>
@@ -85,15 +84,15 @@ function escalateServiceDesk()
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4530c4931b767810afb9a932f54bcb6e</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Create Incident Task for Service Desk</sys_name>
         <sys_overrides/>
         <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
         <sys_update_name>sys_ui_action_4530c4931b767810afb9a932f54bcb6e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-25 18:34:13</sys_updated_on>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-13 20:27:25</sys_updated_on>
         <table>x_451182_lms_lms_incidents</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
