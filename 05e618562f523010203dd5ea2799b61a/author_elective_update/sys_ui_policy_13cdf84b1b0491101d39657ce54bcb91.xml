@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_451182_lms_lms_incidents">hold_reason=1^state=3^EQ<item display_value="Awaiting Caller" endquery="false" field="hold_reason" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>false</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Make the field 'Additional Comments' mandatory when the On Hold Reason is 'Awaiting Caller'</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-05 05:57:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13cdf84b1b0491101d39657ce54bcb91</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Make the field 'Additional Comments' mandatory when the On Hold Reason is 'Awaiting Caller'</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Management Best Practice - Jakarta" source="com.snc.best_practice.incident.jakarta">9868f24a1b1633000b8cca661a4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_ui_policy_13cdf84b1b0491101d39657ce54bcb91</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:09:13</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_ui_policy_13cdf84b1b0491101d39657ce54bcb91</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_451182_lms_lms_incidents"&gt;hold_reason=1^state=3^EQ&lt;item display_value="Awaiting Caller" endquery="false" field="hold_reason" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;false&lt;/on_load&gt;&lt;order&gt;200&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Make the field 'Additional Comments' mandatory when the On Hold Reason is 'Awaiting Caller'&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-02-05 05:57:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;13cdf84b1b0491101d39657ce54bcb91&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make the field 'Additional Comments' mandatory when the On Hold Reason is 'Awaiting Caller'&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Incident Management Best Practice - Jakarta" source="com.snc.best_practice.incident.jakarta"&gt;9868f24a1b1633000b8cca661a4bcb5e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Learning Management System"&gt;05e618562f523010203dd5ea2799b61a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_13cdf84b1b0491101d39657ce54bcb91&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Richard.Duong@dss.ca.gov&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-17 04:09:13&lt;/sys_updated_on&gt;&lt;table&gt;x_451182_lms_lms_incidents&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2006489014</payload_hash>
+        <record_name>Make the field 'Additional Comments' mandatory when the On Hold Reason is 'Awaiting Caller'</record_name>
+        <reverted_from/>
+        <source>1cfb2c051b8c1910afb9a932f54bcbec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:09:13</sys_created_on>
+        <sys_id>1e8e388b1b0491101d39657ce54bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816fd9cc080000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:09:13</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>168e388b98049110aa6af80bab4eb240</update_guid>
+        <update_guid_history>168e388b98049110aa6af80bab4eb240:-2006489014,528e388b7d0491102d7633b2ed26fd3e:-234721222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:10:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>5aebbfdfd08344e18b1416666f8b13d9</sys_id>
+        <sys_metadata>13cdf84b1b0491101d39657ce54bcb91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make the field 'Additional Comments' mandatory when the On Hold Reason is 'Awaiting Caller'</sys_name>
+        <sys_package display_value="Incident Management Best Practice - Jakarta" source="com.snc.best_practice.incident.jakarta">9868f24a1b1633000b8cca661a4bcb5e</sys_package>
+        <sys_parent display_value="LMS Incidents">209fd3841bbbcd501d39657ce54bcbd8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_13cdf84b1b0491101d39657ce54bcb91</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_13cdf84b1b0491101d39657ce54bcb91">1e8e388b1b0491101d39657ce54bcb40</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:10:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

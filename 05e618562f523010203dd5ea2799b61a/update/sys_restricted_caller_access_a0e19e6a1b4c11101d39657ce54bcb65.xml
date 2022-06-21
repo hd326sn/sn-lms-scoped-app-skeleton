@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>8de12cdfc0a8016701fdf6b2bdb041cb</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_security_acl</source_table>
+        <source_type>11</source_type>
+        <status>2</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-15 20:56:24</sys_created_on>
+        <sys_id>a0e19e6a1b4c11101d39657ce54bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_a0e19e6a1b4c11101d39657ce54bcb65</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-15 20:56:24</sys_updated_on>
+        <target name="x_451182_lms_lms_incidents" target_table="sys_db_object">209fd3841bbbcd501d39657ce54bcbd8</target>
+        <target_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

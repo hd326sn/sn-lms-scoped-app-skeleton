@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_451182_lms_lms_incidents">business_service=9cb84b041bc884500b8cca661a4bcb08^ORbusiness_service=90b84b041bc884500b8cca661a4bcb0f^EQ<item display_table="cmdb_ci_service" display_value="FAS - Field Automation System" endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="false" value="9cb84b041bc884500b8cca661a4bcb08"/>
+            <item display_table="cmdb_ci_service" display_value="LIS - Licensing Information System" endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="true" value="90b84b041bc884500b8cca661a4bcb0f"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('fas_information', false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setSectionDisplay('fas_information', true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide FAS Section</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>sreed@ens-inc.com</sys_created_by>
+        <sys_created_on>2019-09-23 04:04:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7cdb84b1b0491101d39657ce54bcbc4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Hide FAS Section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_ui_policy_d7cdb84b1b0491101d39657ce54bcbc4</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:09:13</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_ui_policy_d7cdb84b1b0491101d39657ce54bcbc4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_451182_lms_lms_incidents"&gt;business_service=9cb84b041bc884500b8cca661a4bcb08^ORbusiness_service=90b84b041bc884500b8cca661a4bcb0f^EQ&lt;item display_table="cmdb_ci_service" display_value="FAS - Field Automation System" endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="false" value="9cb84b041bc884500b8cca661a4bcb08"/&gt;&lt;item display_table="cmdb_ci_service" display_value="LIS - Licensing Information System" endquery="false" field="business_service" goto="false" newquery="false" operator="=" or="true" value="90b84b041bc884500b8cca661a4bcb0f"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	g_form.setSectionDisplay('fas_information', false);
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.setSectionDisplay('fas_information', true);
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide FAS Section&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sreed@ens-inc.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-23 04:04:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d7cdb84b1b0491101d39657ce54bcbc4&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide FAS Section&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Learning Management System"&gt;05e618562f523010203dd5ea2799b61a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d7cdb84b1b0491101d39657ce54bcbc4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Richard.Duong@dss.ca.gov&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-17 04:09:13&lt;/sys_updated_on&gt;&lt;table&gt;x_451182_lms_lms_incidents&lt;/table&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1451261896</payload_hash>
+        <record_name>Hide FAS Section</record_name>
+        <reverted_from/>
+        <source>1cfb2c051b8c1910afb9a932f54bcbec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:09:13</sys_created_on>
+        <sys_id>228e388b1b0491101d39657ce54bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816fd9ccc80000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:09:13</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>2a8e388ba2049110c6dbb54b5853bb54</update_guid>
+        <update_guid_history>2a8e388ba2049110c6dbb54b5853bb54:1451261896,6a8e388b4e049110e4b1cb00be457e52:226138584</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:10:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>02dc280f77a84f6f8015679eec765161</sys_id>
+        <sys_metadata>d7cdb84b1b0491101d39657ce54bcbc4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide FAS Section</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_parent display_value="LMS Incidents">209fd3841bbbcd501d39657ce54bcbd8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_d7cdb84b1b0491101d39657ce54bcbc4</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_d7cdb84b1b0491101d39657ce54bcbc4">228e388b1b0491101d39657ce54bcb55</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:10:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

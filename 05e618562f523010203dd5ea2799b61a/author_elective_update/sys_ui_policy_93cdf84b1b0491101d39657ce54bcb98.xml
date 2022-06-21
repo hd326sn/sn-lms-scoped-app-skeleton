@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>1000</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Priority is managed by Data Lookup - set as read-only</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2012-02-18 05:15:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93cdf84b1b0491101d39657ce54bcb98</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Priority is managed by Data Lookup - set as read-only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">e867fece1bd233000b8cca661a4bcbd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_ui_policy_93cdf84b1b0491101d39657ce54bcb98</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:09:13</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <ui_type/>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_ui_policy_93cdf84b1b0491101d39657ce54bcb98</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;1000&lt;/order&gt;&lt;reverse_if_false&gt;false&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Priority is managed by Data Lookup - set as read-only&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2012-02-18 05:15:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;93cdf84b1b0491101d39657ce54bcb98&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Priority is managed by Data Lookup - set as read-only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup"&gt;e867fece1bd233000b8cca661a4bcbd8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Learning Management System"&gt;05e618562f523010203dd5ea2799b61a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_93cdf84b1b0491101d39657ce54bcb98&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Richard.Duong@dss.ca.gov&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-06-17 04:09:13&lt;/sys_updated_on&gt;&lt;table&gt;x_451182_lms_lms_incidents&lt;/table&gt;&lt;ui_type/&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>170339561</payload_hash>
+        <record_name>Priority is managed by Data Lookup - set as read-only</record_name>
+        <reverted_from/>
+        <source>1cfb2c051b8c1910afb9a932f54bcbec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:09:13</sys_created_on>
+        <sys_id>5e8e388b1b0491101d39657ce54bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816fd9cc510000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:09:13</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>568e388b1a04911032f533cbada3e348</update_guid>
+        <update_guid_history>568e388b1a04911032f533cbada3e348:170339561,968e388b1b0491108d93835740145d46:-852549415</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:10:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>3c0ea653472b4f1d9225a091ea1350c1</sys_id>
+        <sys_metadata>93cdf84b1b0491101d39657ce54bcb98</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority is managed by Data Lookup - set as read-only</sys_name>
+        <sys_package display_value="Data Lookup and Record Matching Support" source="com.glide.data_lookup">e867fece1bd233000b8cca661a4bcbd8</sys_package>
+        <sys_parent display_value="LMS Incidents">209fd3841bbbcd501d39657ce54bcbd8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_93cdf84b1b0491101d39657ce54bcb98</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_93cdf84b1b0491101d39657ce54bcb98">5e8e388b1b0491101d39657ce54bcb48</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:10:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

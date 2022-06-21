@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>work_notes</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>glide.maint</sys_created_by>
+        <sys_created_on>2009-03-04 04:18:18</sys_created_on>
+        <sys_id>65f2c98f1b0491101d39657ce54bcb72</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>work_notes</sys_name>
+        <sys_package display_value="Best Practice - Incident Resolution Workflow" source="com.snc.bestpractice.incident">1737ba4e1bd233000b8cca661a4bcb4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_65f2c98f1b0491101d39657ce54bcb72</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:38:11</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <ui_policy display_value="Make fields read-only on close">97ce3c8b1b0491101d39657ce54bcb26</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_ui_policy_action_65f2c98f1b0491101d39657ce54bcb72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>work_notes</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2009-03-04 04:18:18</sys_created_on><sys_id>65f2c98f1b0491101d39657ce54bcb72</sys_id><sys_mod_count>4</sys_mod_count><sys_name>work_notes</sys_name><sys_package display_value="Best Practice - Incident Resolution Workflow" source="com.snc.bestpractice.incident">1737ba4e1bd233000b8cca661a4bcb4f</sys_package><sys_policy/><sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope><sys_update_name>sys_ui_policy_action_65f2c98f1b0491101d39657ce54bcb72</sys_update_name><sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by><sys_updated_on>2022-06-17 04:38:11</sys_updated_on><table>x_451182_lms_lms_incidents</table><ui_policy display_value="Make fields read-only on close">97ce3c8b1b0491101d39657ce54bcb26</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1840200972</payload_hash>
+        <record_name>work_notes</record_name>
+        <reverted_from/>
+        <source>1cfb2c051b8c1910afb9a932f54bcbec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:38:11</sys_created_on>
+        <sys_id>fe254d031b4491101d39657ce54bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816ff452fb0000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:38:11</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>be254d03b64491103d9beeeb20ff6895</update_guid>
+        <update_guid_history>be254d03b64491103d9beeeb20ff6895:-1840200972,cf05c903644491109f47ffe143cac96b:-1414175710,4f05c903644491103cf73bf59422ab69:892173488</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-21 15:23:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>779e21f047c84d1c89dcf9f2e4614624</sys_id>
+        <sys_metadata>65f2c98f1b0491101d39657ce54bcb72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>work_notes</sys_name>
+        <sys_package display_value="Best Practice - Incident Resolution Workflow" source="com.snc.bestpractice.incident">1737ba4e1bd233000b8cca661a4bcb4f</sys_package>
+        <sys_parent display_value="Make fields read-only on close">97ce3c8b1b0491101d39657ce54bcb26</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_65f2c98f1b0491101d39657ce54bcb72</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_65f2c98f1b0491101d39657ce54bcb72">fe254d031b4491101d39657ce54bcba2</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-21 15:23:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

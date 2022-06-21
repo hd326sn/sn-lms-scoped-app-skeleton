@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>assignment_group</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-17 04:23:24</sys_created_on>
+        <sys_id>dfb18d0f1b0491101d39657ce54bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_dfb18d0f1b0491101d39657ce54bcb1a</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-06-17 04:23:24</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <ui_policy display_value="Fields set to mandatory for all states">57ce3c8b1b0491101d39657ce54bcb1f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

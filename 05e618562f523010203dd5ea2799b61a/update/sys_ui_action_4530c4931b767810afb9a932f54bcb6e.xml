@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>create_inc_task_for_sd</action_name>
+        <action_name>create_inc_task_for_isd_lms</action_name>
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
@@ -26,14 +26,14 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Create Incident Task for Service Desk</name>
+        <name>Create Incident Task for ISD LMS Group</name>
         <onclick>escalateToServiceDesk()</onclick>
         <order>100</order>
         <script><![CDATA[/* Source https://servicenowguru.com/system-ui/ui-actions-system-ui/client-server-code-ui-action/ */
 
 function escalateToServiceDesk()
 {
-    var answer = confirm('Are you sure you want to create a child task that will notify Service Desk about this issue?');
+    var answer = confirm('Are you sure you want to create a child task that will notify ISD LMS Group about this issue?');
    
     if(answer == false)
     {
@@ -43,7 +43,7 @@ function escalateToServiceDesk()
     else
     {
 		// Call the UI Action and skip the 'onclick' function
-        gsftSubmit(null, g_form.getFormElement(), 'create_inc_task_for_sd');
+        gsftSubmit(null, g_form.getFormElement(), 'create_inc_task_for_isd_lms');
     }
 }
 // Code that runs without 'onclick'
@@ -53,6 +53,7 @@ if(typeof window == 'undefined')
 //Server-side function
 function escalateServiceDesk()
 {
+	var ISD_LMS_GROUP_SYS_ID = 'ebc2bd37db181010c2096451ca96197b';
 	var intk = new GlideRecord("incident_task");
     intk.initialize();
 	//inc.caller_id = current.caller_id;
@@ -67,12 +68,14 @@ function escalateServiceDesk()
 	intk.impact = current.impact;
 	intk.urgency = current.urgency;
 	intk.priority = current.priority;
-	intk.assignment_group = gs.getProperty('group.Service.Desk');
+	// LMS
+	intk.assignment_group = ISD_LMS_GROUP_SYS_ID;
 	intk.short_description = current.short_description;
 	intk.description = current.description;
 	intk.incident = current.sys_id;
 	intk.work_notes = 'This Task was created (cloned) from LMS Incident ' + current.number + ' because further assistance is needed in processing';
 	intk.insert();
+	action.setRedirectURL(current);
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -84,15 +87,15 @@ function escalateServiceDesk()
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4530c4931b767810afb9a932f54bcb6e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Create Incident Task for Service Desk</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Create Incident Task for ISD LMS Group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
         <sys_update_name>sys_ui_action_4530c4931b767810afb9a932f54bcb6e</sys_update_name>
         <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
-        <sys_updated_on>2022-06-13 20:27:25</sys_updated_on>
+        <sys_updated_on>2022-06-20 16:37:18</sys_updated_on>
         <table>x_451182_lms_lms_incidents</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
