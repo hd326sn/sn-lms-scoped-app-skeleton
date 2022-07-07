@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_451182_lms.LMSUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>LMSUtils</name>
+        <script><![CDATA[var LMSUtils = Class.create();
+LMSUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    hasChildren: function (incidentSysId) {
+		var itGR = new GlideRecord('incident_task');
+		if (itGR.get('incident', incidentSysId)) {
+			return false;
+		} else {
+			return true;
+		}
+	},
+    
+    type: 'LMSUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-07-07 04:12:20</sys_created_on>
+        <sys_id>7a9562d11b2cd5501d39657ce54bcb69</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>LMSUtils</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_script_include_7a9562d11b2cd5501d39657ce54bcb69</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-07-07 04:16:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

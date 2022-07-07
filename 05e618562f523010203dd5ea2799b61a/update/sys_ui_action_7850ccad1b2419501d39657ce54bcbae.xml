@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>create_inc_task_for_isd_lms</action_name>
+        <action_name>assign_to_me</action_name>
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.caller_id != '' &amp;&amp; current.short_description != '' &amp;&amp; new x_451182_lms.LMSUtils().hasChildren(current.sys_id)</condition>
+        <condition/>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -26,55 +26,28 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Create Incident Task for ISD LMS Group</name>
-        <onclick>escalateToServiceDesk()</onclick>
-        <order>500</order>
+        <name>Assign To Me</name>
+        <onclick>assignToMe()</onclick>
+        <order>501</order>
         <script><![CDATA[/* Source https://servicenowguru.com/system-ui/ui-actions-system-ui/client-server-code-ui-action/ */
 
-function escalateToServiceDesk()
+function assignToMe()
 {
-    var answer = confirm('Are you sure you want to create a child task that will notify ISD LMS Group about this issue?');
-   
-    if(answer == false)
-    {
-		//Abort submission
-        return false;
-    }
-    else
-    {
-		// Call the UI Action and skip the 'onclick' function
-        gsftSubmit(null, g_form.getFormElement(), 'create_inc_task_for_isd_lms');
-    }
+
+   // Call the UI Action and skip the 'onclick' function
+   gsftSubmit(null, g_form.getFormElement(), 'assign_to_me');
+
 }
 // Code that runs without 'onclick'
 // Ensure call to server-side function with no browser errors
 if(typeof window == 'undefined')
-    escalateServiceDesk();
+    assignToUser();
 //Server-side function
-function escalateServiceDesk()
+function assignToUser()
 {
-	var ISD_LMS_GROUP_SYS_ID = 'ebc2bd37db181010c2096451ca96197b';
-	var intk = new GlideRecord("incident_task");
-    intk.initialize();
-	//inc.caller_id = current.caller_id;
-	//inc.category = current.category;
-	//inc.subcategory = current.subcategory;
-	intk.business_service = current.business_service;
-	intk.service_offering = current.service_offering;
-	intk.cmdb_ci = current.cmdb_ci;
-	intk.contact_type = current.contact_type;
-	//inc.state = current.state;
-	//tnc.hold_reason = current.hold_reason;
-	intk.impact = current.impact;
-	intk.urgency = current.urgency;
-	intk.priority = current.priority;
-	// LMS
-	intk.assignment_group = ISD_LMS_GROUP_SYS_ID;
-	intk.short_description = current.short_description;
-	intk.description = current.description;
-	intk.incident = current.sys_id;
-	intk.work_notes = 'This Task was created (cloned) from LMS Incident ' + current.number + ' because further assistance is needed in processing';
-	intk.insert();
+	current.assigned_to = gs.getUserID();
+	current.state = '2';
+	current.update();
 	action.setRedirectURL(current);
 }]]></script>
         <show_insert>true</show_insert>
@@ -83,19 +56,19 @@ function escalateServiceDesk()
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
-        <sys_created_on>2021-09-29 19:04:13</sys_created_on>
+        <sys_created_on>2022-07-07 04:31:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4530c4931b767810afb9a932f54bcb6e</sys_id>
-        <sys_mod_count>25</sys_mod_count>
-        <sys_name>Create Incident Task for ISD LMS Group</sys_name>
+        <sys_id>7850ccad1b2419501d39657ce54bcbae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assign To Me</sys_name>
         <sys_overrides/>
         <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
-        <sys_update_name>sys_ui_action_4530c4931b767810afb9a932f54bcb6e</sys_update_name>
+        <sys_update_name>sys_ui_action_7850ccad1b2419501d39657ce54bcbae</sys_update_name>
         <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
-        <sys_updated_on>2022-07-07 04:32:06</sys_updated_on>
+        <sys_updated_on>2022-07-07 04:32:03</sys_updated_on>
         <table>x_451182_lms_lms_incidents</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
