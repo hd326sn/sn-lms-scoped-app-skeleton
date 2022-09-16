@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="DELETE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This Inbound Action is to allow recording for emails sent thru the ellipsis.</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from display_value="CDSSLearningManagementDevSvc ">ab028c011b0c1910afb9a932f54bcb02</from>
+        <name>LMS Email Reply</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include('validators');
+current.additional_comments = "reply from " + email.origemail + "\n\n" + email.body_text; 
+current.update();
+
+]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-06-16 00:34:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e05fba221b0051101d39657ce54bcb67</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>LMS Email Reply</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sysevent_in_email_action_e05fba221b0051101d39657ce54bcb67</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-09-10 01:30:21</sys_updated_on>
+        <table>x_451182_lms_lms_incidents</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sysevent_in_email_action_e05fba221b0051101d39657ce54bcb67</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_in_email_action"&gt;&lt;sysevent_in_email_action action="INSERT_OR_UPDATE"&gt;&lt;action&gt;record_action&lt;/action&gt;&lt;active&gt;true&lt;/active&gt;&lt;assignment_operator/&gt;&lt;condition_script/&gt;&lt;description&gt;This Inbound Action is to allow recording for emails sent thru the ellipsis.&lt;/description&gt;&lt;event_name&gt;email.read&lt;/event_name&gt;&lt;filter_condition/&gt;&lt;from display_value="CDSSLearningManagementDevSvc "&gt;ab028c011b0c1910afb9a932f54bcb02&lt;/from&gt;&lt;name&gt;LMS Email Reply&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;reply_email/&gt;&lt;required_roles/&gt;&lt;script&gt;&lt;![CDATA[gs.include('validators');
+current.additional_comments = "reply from " + email.origemail + "\n\n" + email.body_text; 
+current.update();
+
+]]&gt;&lt;/script&gt;&lt;stop_processing&gt;false&lt;/stop_processing&gt;&lt;sys_class_name&gt;sysevent_in_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Richard.Duong@dss.ca.gov&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-16 00:34:15&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e05fba221b0051101d39657ce54bcb67&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;LMS Email Reply&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Learning Management System" source="x_451182_lms"&gt;05e618562f523010203dd5ea2799b61a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Learning Management System"&gt;05e618562f523010203dd5ea2799b61a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_in_email_action_e05fba221b0051101d39657ce54bcb67&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Richard.Duong@dss.ca.gov&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-10 01:30:21&lt;/sys_updated_on&gt;&lt;table&gt;x_451182_lms_lms_incidents&lt;/table&gt;&lt;template/&gt;&lt;type&gt;reply&lt;/type&gt;&lt;/sysevent_in_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-252716773</payload_hash>
+        <record_name>LMS Email Reply</record_name>
+        <reverted_from/>
+        <source>9d602b841bbbcd501d39657ce54bcbab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-09-10 01:30:21</sys_created_on>
+        <sys_id>cc598a521bfd99181d39657ce54bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1832504e5c60000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-09-10 01:30:21</sys_updated_on>
+        <type>Inbound Email Actions</type>
+        <update_guid>04598a5215fd9918d7c6104cf7dd34bd</update_guid>
+        <update_guid_history>04598a5215fd9918d7c6104cf7dd34bd:-252716773,72c3b51a043d99186ec60d2ddbeddd0a:-934677604,6472f916663d9918cefbf40fe2e388fa:259061759,7b52bd169c3d9918bdadefdebe67f492:367810660,2b91fd924e3d9918c137ad6abf1c91e4:2088063295,4109820f8e2959d44473d50bae51728c:367810660,77c39ddbf704d11059e9161760591930:110703638,83f291db4304d1108942e930d5380e14:1830956273,2d9c0feab0005110e1e89851922b9d96:110703638,f3b34be28e0051103901824a07165292:-1330872722</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-09-10 01:42:39</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_in_email_action">sysevent_in_email_action</sys_db_object>
+        <sys_id>20de237f47ee40ea94bcfa056a8e8a24</sys_id>
+        <sys_metadata>e05fba221b0051101d39657ce54bcb67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LMS Email Reply</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_parent display_value="LMS Incidents">209fd3841bbbcd501d39657ce54bcbd8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sysevent_in_email_action_e05fba221b0051101d39657ce54bcb67</sys_update_name>
+        <sys_update_version display_value="sysevent_in_email_action_e05fba221b0051101d39657ce54bcb67">cc598a521bfd99181d39657ce54bcbbd</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-09-10 01:42:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

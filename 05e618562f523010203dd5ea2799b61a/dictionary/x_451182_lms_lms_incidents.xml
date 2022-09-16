@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" extends="incident" label="LMS Incidents" max_length="40" name="x_451182_lms_lms_incidents" sizeclass="14" type="collection"/>
+    <element attributes="email_client=true" audit="true" extends="incident" label="LMS Incidents" max_length="40" name="x_451182_lms_lms_incidents" sizeclass="11" type="collection"/>
 </database>
