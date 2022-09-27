@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
     <sys_app_application action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
         <description/>
         <device_type>browser</device_type>
@@ -14,7 +14,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b3595cd62f523010203dd5ea2799b613</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Learning Management System (LMS)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
         <sys_update_name>sys_app_application_b3595cd62f523010203dd5ea2799b613</sys_update_name>
         <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
-        <sys_updated_on>2022-06-13 22:05:06</sys_updated_on>
+        <sys_updated_on>2022-09-26 02:38:24</sys_updated_on>
         <title>Learning Management System (LMS)</title>
         <view_name/>
     </sys_app_application>

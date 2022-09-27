@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-09-26 22:02:22</sys_created_on>
+        <sys_id>a59c34771bc295101d39657ce54bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedEmailWrapper</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_update_name>sys_scope_privilege_a59c34771bc295101d39657ce54bcb41</sys_update_name>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-09-26 22:02:22</sys_updated_on>
+        <target_name>ScopedEmailWrapper</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</application>
+        <file_path/>
+        <instance_id>7cc0d806dbe5dc1077e0b16a329619ae</instance_id>
+        <instance_name>cdssdev</instance_name>
+        <name>sys_scope_privilege_a59c34771bc295101d39657ce54bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by><sys_created_on>2022-09-26 22:02:22</sys_created_on><sys_id>a59c34771bc295101d39657ce54bcb41</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ScopedEmailWrapper</sys_name><sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package><sys_policy/><sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope><sys_update_name>sys_scope_privilege_a59c34771bc295101d39657ce54bcb41</sys_update_name><sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by><sys_updated_on>2022-09-26 22:02:22</sys_updated_on><target_name>ScopedEmailWrapper</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>393783585</payload_hash>
+        <record_name>ScopedEmailWrapper</record_name>
+        <reverted_from/>
+        <source>9d602b841bbbcd501d39657ce54bcbab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-09-26 22:02:22</sys_created_on>
+        <sys_id>87bcb4b71bc295101d39657ce54bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1837bd297ed0000001</sys_recorded_at>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-09-26 22:02:22</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>c3bc347734c2951000492d2d736b0f46</update_guid>
+        <update_guid_history>c3bc347734c2951000492d2d736b0f46:393783585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Richard.Duong@dss.ca.gov</sys_created_by>
+        <sys_created_on>2022-09-26 22:09:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>16a5d2e5378245b887c0057d945a6844</sys_id>
+        <sys_metadata>a59c34771bc295101d39657ce54bcb41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedEmailWrapper</sys_name>
+        <sys_package display_value="Learning Management System" source="x_451182_lms">05e618562f523010203dd5ea2799b61a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Learning Management System">05e618562f523010203dd5ea2799b61a</sys_scope>
+        <sys_scope_delete display_value="">30b7bc12370d41069d4667e0f1d11404</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_a59c34771bc295101d39657ce54bcb41</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_a59c34771bc295101d39657ce54bcb41">87bcb4b71bc295101d39657ce54bcbc9</sys_update_version>
+        <sys_updated_by>Richard.Duong@dss.ca.gov</sys_updated_by>
+        <sys_updated_on>2022-09-26 22:09:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
